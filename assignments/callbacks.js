@@ -75,8 +75,12 @@ const items = ["Pencil", "Notebook", "yo-yo", "Gum"];
 
 /* STRETCH PROBLEM */
 
+const friends = ["jon", "mike", "lucy", "mike", "rob", "rob"];
 function removeDuplicates(array, cb) {
   // removeDuplicates removes all duplicate values from the given array.
+  let unique = [...new Set(friends)];
+  return unique;
   // Pass the duplicate free array to the callback function.
   // Do not mutate the original array.
 }
+console.log(removeDuplicates(friends));
