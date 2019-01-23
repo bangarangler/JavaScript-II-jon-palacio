@@ -43,10 +43,25 @@ const items = ["Pencil", "Notebook", "yo-yo", "Gum"];
 //// sumNums adds two numbers (x, y) and passes the result to the callback.
 //return cb(x + y);
 //}
-
 //sumNums(2, 2, function(x) {
 //console.log(x);
 //});
+
+// My own exanple to make sense of sense.
+// don't have to call it cb or callback.  note to self 'jon call it what it is
+// or what it is going to do'
+
+//function add(a, b) {
+//return a + b;
+//}
+//function multiply(a, b) {
+//return a * b;
+//}
+//function calcNums(a, b, type) {
+//return type(a, b);
+//}
+//console.log(calcNums(2, 8, multiply));
+//end jon's example
 
 //function multiplyNums(x, y, cb) {
 //// multiplyNums multiplies two numbers and passes the result to the callback.
