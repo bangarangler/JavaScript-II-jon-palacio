@@ -47,3 +47,18 @@
 //counterFactory.skills();
 //counterFactory.patience();
 //console.log(count);
+
+const counterFactory = () => {
+  let counter = 0;
+
+  return {
+    increment: () => ++counter,
+    decrement: () => --counter
+  };
+};
+
+const newCounterFactory = counterFactory();
+console.log(newCounterFactory.decrement());
+console.log(newCounterFactory.decrement());
+console.log(newCounterFactory.decrement());
+console.log(newCounterFactory.decrement());
